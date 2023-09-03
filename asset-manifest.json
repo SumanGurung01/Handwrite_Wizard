@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Handwrite_Wizard/static/css/main.df08bf29.css",
+    "main.js": "/Handwrite_Wizard/static/js/main.66a9cfff.js",
+    "index.html": "/Handwrite_Wizard/index.html",
+    "main.df08bf29.css.map": "/Handwrite_Wizard/static/css/main.df08bf29.css.map",
+    "main.66a9cfff.js.map": "/Handwrite_Wizard/static/js/main.66a9cfff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df08bf29.css",
+    "static/js/main.66a9cfff.js"
+  ]
+}
