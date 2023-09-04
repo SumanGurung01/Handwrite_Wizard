@@ -1,7 +1,7 @@
 ## Handwrite Wizard
 A User-friendly application that allows you to effortlessly transform digital text into beautifully handwritten documents. With a range of customizable features, this app offers a seamless experience for generating handwritten assignments, notes, and more.
 
-## ## 🔗 Links
+## 🔗 Links
 Visit [Website](https://sumangurung01.github.io/Handwrite_Wizard/)
 
 ## Screenshot
