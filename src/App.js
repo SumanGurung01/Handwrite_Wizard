@@ -9,6 +9,7 @@ import page2 from './asset/page2.png';
 import page3 from './asset/page3.png';
 import page4 from './asset/page4.png';
 import Button from '@mui/material/Button';
+
 import './App.css';
 
 
@@ -36,7 +37,6 @@ function App() {
   const [ink, setInk] = useState(INK[0])
   const [space, setSpace] = useState(SPACE[0])
   const [page, setPage] = useState(PAGETYPE[0])
-
   const containerRef = useRef(null);
 
   const outputStyle = {
@@ -46,7 +46,6 @@ function App() {
     wordSpacing: space,
     background: `url(${PAGEIMAGE[PAGETYPE.indexOf(page)]})`,
   };
-
 
   const handleTextChange = (e) => {
     setParagraph(e.target.value);
@@ -98,7 +97,7 @@ function App() {
   };
 
   return (
-    <div classname="app">
+    <div className="app">
 
       <div className="app__header">
         <h1 className="app__header__h1">Handwrite Wizard</h1>
@@ -232,6 +231,9 @@ function App() {
         </div>
 
       </div>
+
+      <br></br>
+      <br></br>
 
 
 

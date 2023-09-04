@@ -1,3 +1,7 @@
+/* .app {
+  background-color: #121212
+} */
+
 .app__header {
   display: flex;
   justify-content: center;
