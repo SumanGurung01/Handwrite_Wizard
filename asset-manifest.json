@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Handwrite_Wizard/static/css/main.67ed842e.css",
+    "main.css": "/Handwrite_Wizard/static/css/main.fc0ac738.css",
     "main.js": "/Handwrite_Wizard/static/js/main.0102a3c9.js",
     "static/media/logo.png": "/Handwrite_Wizard/static/media/logo.31547c168c9bbbbef46f.png",
     "index.html": "/Handwrite_Wizard/index.html",
-    "main.67ed842e.css.map": "/Handwrite_Wizard/static/css/main.67ed842e.css.map",
+    "main.fc0ac738.css.map": "/Handwrite_Wizard/static/css/main.fc0ac738.css.map",
     "main.0102a3c9.js.map": "/Handwrite_Wizard/static/js/main.0102a3c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.67ed842e.css",
+    "static/css/main.fc0ac738.css",
     "static/js/main.0102a3c9.js"
   ]
 }
