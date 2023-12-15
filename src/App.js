@@ -8,10 +8,8 @@ import page1 from './asset/page1.png';
 import page2 from './asset/page2.png';
 import page3 from './asset/page3.png';
 import page4 from './asset/page4.png';
-import Button from '@mui/material/Button';
-
+import logo from './asset/logo.png';
 import './App.css';
-
 
 function App() {
 
@@ -99,12 +97,39 @@ function App() {
   return (
     <div className="app">
 
-      <div className="app__header">
-        <h1 className="app__header__h1">Handwrite Wizard</h1>
-        <p className="app__header__p">Transforming Text into Handwritten Artistry</p>
+      <div className="app__navbar">
+        <div className="navbar__item">
+
+          <div className="logo__name">
+            <img
+              src={logo}
+              className="logo"
+            >
+            </img>
+            <h1>
+              Handwrite Wizard
+            </h1>
+          </div>
+
+          <div className="link">
+            <a href="#get_started">
+              Get Started
+            </a>
+            <a href="https://github.com/SumanGurung01/Handwrite_Wizard" target="_blank">
+              Github
+            </a>
+          </div>
+
+        </div>
       </div>
 
-      <div className='app__option'>
+      <div className="app__header">
+        <h2 className="app__header__h2">Transform text into Handwritten notes with</h2>
+        <h1 className="app__header__h1">Handwrite Wizard</h1>
+        <p className="app__header__p" align="center">Give your digital words a touch of handwritten soul <br></br>and make your notes uniquely yours.</p>
+      </div>
+
+      <div className='app__option' id="get_started">
         <div>
           <FormControl sx={{ m: 1, minWidth: 200 }} size="small">
             <InputLabel id="demo-select-small-label">Text Size</InputLabel>
@@ -202,7 +227,10 @@ function App() {
 
 
         <div>
-          <Button style={{ backgroundColor: 'rgb(40,40,40)', color: 'azure', width: 200, height: 39 }} variant="contained" onClick={handleSaveImage}>Download</Button>
+          <button
+            style={{ width: 200, height: 39 }}
+            className="button"
+            onClick={handleSaveImage}>DOWNLOAD</button>
         </div>
 
       </div>
@@ -225,8 +253,8 @@ function App() {
 
 
         <div>
-          <p className="app__content__p1">Output</p>
-          <p className="app__content__p2"><i>the assignment will look like below</i></p>
+          <p className="app__content__p1 pre">Output</p>
+          <p className="app__content__p2 pre"><i>the assignment will look like below</i></p>
           <pre className="app__content__pre" ref={containerRef} style={outputStyle}>{paragraph}</pre>
         </div>
 
