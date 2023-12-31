@@ -12,7 +12,7 @@ Check out the Website [Click here](https://SumanGurung01.github.io/Handwrite_Wiz
 - **Download Options**: Download your handwritten notes to share or store them effortlessly.
 
 ## Responsive Design
-Whether you're on your desktop, tablet, or mobile device, Handwrite Wizard ensures a consistent and user-friendly experience. The responsive design adapts seamlessly to various screen sizes, making movie exploration a pleasure anytime, anywhere.
+Whether you're on your desktop, tablet, or mobile device, Handwrite Wizard ensures a consistent and user-friendly experience. The responsive design adapts seamlessly to various screen sizes.
 
 <img src="https://github.com/SumanGurung01/Handwrite_Wizard/assets/92732976/f92a7857-b5d7-4a7f-bc8b-ddd5199fc87f" width=100 height=200>
 <img src="https://github.com/SumanGurung01/Handwrite_Wizard/assets/92732976/1dbfbd84-ec7b-43e7-882c-b7f530fbcc5c" width=350 height=200>
